@@ -196,6 +196,8 @@ export default function Edit( { attributes, setAttributes } ) {
 							setAttributes( { label: value } )
 						}
 						autoComplete="off"
+						__next40pxDefaultSize
+						__nextHasNoMarginBottom
 					/>
 					<ComboboxControl
 						label={ __( 'Menu Template', 'mega-menu-block' ) }
@@ -222,6 +224,8 @@ export default function Edit( { attributes, setAttributes } ) {
 								}
 							)
 						}
+						__next40pxDefaultSize
+						__nextHasNoMarginBottom
 					/>
 					{ ! hasMenus && noMenusNotice }
 					{ hasMenus &&
@@ -240,6 +244,7 @@ export default function Edit( { attributes, setAttributes } ) {
 							'mega-menu-block'
 						) }
 						autoComplete="off"
+						__nextHasNoMarginBottom
 					/>
 					<TextControl
 						label={ __( 'Title', 'mega-menu-block' ) }
@@ -253,6 +258,8 @@ export default function Edit( { attributes, setAttributes } ) {
 							'mega-menu-block'
 						) }
 						autoComplete="off"
+						__next40pxDefaultSize
+						__nextHasNoMarginBottom
 					/>
 					<ToggleControl
 						label={ __(
@@ -269,6 +276,8 @@ export default function Edit( { attributes, setAttributes } ) {
 							'When the navigation options are displayed in an overlay, typically on mobile devices, disable the mega menu.',
 							'mega-menu-block'
 						) }
+						__next40pxDefaultSize
+						__nextHasNoMarginBottom
 					/>
 					{ disableWhenCollapsed && (
 						<TextControl
@@ -285,6 +294,8 @@ export default function Edit( { attributes, setAttributes } ) {
 								'mega-menu-block'
 							) }
 							autoComplete="off"
+							__next40pxDefaultSize
+							__nextHasNoMarginBottom
 						/>
 					) }
 				</PanelBody>
@@ -304,6 +315,8 @@ export default function Edit( { attributes, setAttributes } ) {
 								} );
 							} }
 							isDeselectable={ true }
+							__next40pxDefaultSize
+							__nextHasNoMarginBottom
 						>
 							{ justificationOptions.map(
 								( { value, icon, iconLabel } ) => {
@@ -328,6 +341,7 @@ export default function Edit( { attributes, setAttributes } ) {
 								} );
 							} }
 							__nextHasNoMarginBottom
+							__next40pxDefaultSize
 						>
 							{ widthOptions.map(
 								( { value, icon, iconLabel } ) => {
