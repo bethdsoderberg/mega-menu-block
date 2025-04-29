@@ -107,7 +107,7 @@ const rootPaddingLeft = bodyStyles
 	.getPropertyValue( '--wp--style--root--padding-left' )
 	.trim();
 const rootPaddingRight = bodyStyles
-	.getPropertyValue( '--wp--style--root--padding-left' )
+	.getPropertyValue( '--wp--style--root--padding-right' )
 	.trim();
 
 function adjustMegaMenus() {
