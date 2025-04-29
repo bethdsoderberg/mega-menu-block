@@ -1,4 +1,4 @@
-# Copyright (C) 2024 Nick Diego
+# Copyright (C) 2025 BeThink Studio, based on prior work by Nick Diego
 # This file is distributed under the GPL-2.0-or-later.
 msgid ""
 msgstr ""
@@ -9,164 +9,142 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"POT-Creation-Date: 2024-02-19T17:27:01+00:00\n"
+"POT-Creation-Date: 2025-04-29T15:08:22+00:00\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"X-Generator: WP-CLI 2.7.1\n"
+"X-Generator: WP-CLI 2.11.0\n"
 "X-Domain: mega-menu-block\n"
 
 #. Plugin Name of the plugin
+#: mega-menu-block.php
 msgid "Mega Menu Block"
 msgstr ""
 
 #. Description of the plugin
+#: mega-menu-block.php
 msgid "An exploratory mega menu block"
 msgstr ""
 
 #. Author of the plugin
-msgid "Nick Diego"
+#: mega-menu-block.php
+msgid "BeThink Studio, based on prior work by Nick Diego"
 msgstr ""
 
-#: mega-menu-block.php:44
+#: mega-menu-block.php:78
 msgid "Menu templates are used to create sections of a mega menu."
 msgstr ""
 
-#: mega-menu-block.php:46
+#: mega-menu-block.php:80
 msgid "Menu"
 msgstr ""
 
-#: build/index.js:1
-#: build/index.js:180
+#: build/outermost-mega-menu/index.js:1
 msgid "No menu templates could be found. Create a new one in the <a>Site Editor</a>."
 msgstr ""
 
-#: build/index.js:1
-#: build/index.js:200
+#: build/outermost-mega-menu/index.js:1
 msgid "The selected menu template no longer exists. Choose another."
 msgstr ""
 
-#: build/index.js:1
-#: build/index.js:217
+#: build/outermost-mega-menu/index.js:1
 msgid "Justify menu left"
 msgstr ""
 
-#: build/index.js:1
-#: build/index.js:222
+#: build/outermost-mega-menu/index.js:1
 msgid "Justify menu center"
 msgstr ""
 
-#: build/index.js:1
-#: build/index.js:227
+#: build/outermost-mega-menu/index.js:1
 msgid "Justify menu right"
 msgstr ""
 
 #. translators: %s: container size (i.e. 600px etc)
-#: build/index.js:4
-#: build/index.js:235
+#: build/outermost-mega-menu/index.js:4
 msgid "Content width (%s wide)"
 msgstr ""
 
 #. translators: %s: container size (i.e. 600px etc)
-#: build/index.js:7
-#: build/index.js:240
+#: build/outermost-mega-menu/index.js:7
 msgid "Wide width (%s wide)"
 msgstr ""
 
-#: build/index.js:7
-#: build/index.js:245
+#: build/outermost-mega-menu/index.js:7
 msgid "Full width"
 msgstr ""
 
-#: build/index.js:7
-#: build/index.js:254
+#: build/outermost-mega-menu/index.js:7
 msgid "Settings"
 msgstr ""
 
-#: build/index.js:7
-#: build/index.js:258
+#: build/outermost-mega-menu/index.js:7
 msgid "Label"
 msgstr ""
 
-#: build/index.js:7
-#: build/index.js:267
+#: build/outermost-mega-menu/index.js:7
 msgid "Menu Template"
 msgstr ""
 
-#: build/index.js:7
-#: build/index.js:274
+#: build/outermost-mega-menu/index.js:7
 msgid "Create and modify menu templates in the <a>Site Editor</a>."
 msgstr ""
 
-#: build/index.js:7
-#: build/index.js:295
+#: build/outermost-mega-menu/index.js:7
 msgid "Description"
 msgstr ""
 
-#: build/index.js:7
-#: build/index.js:301
+#: build/outermost-mega-menu/index.js:7
 msgid "The description will be displayed in the menu if the current theme supports it."
 msgstr ""
 
-#: build/index.js:7
-#: build/index.js:308
+#: build/outermost-mega-menu/index.js:7
 msgid "Title"
 msgstr ""
 
-#: build/index.js:7
-#: build/index.js:314
+#: build/outermost-mega-menu/index.js:7
 msgid "Additional information to help clarify the purpose of the link."
 msgstr ""
 
-#: build/index.js:7
-#: build/index.js:321
+#: build/outermost-mega-menu/index.js:7
 msgid "Disable in navigation overlay"
 msgstr ""
 
-#: build/index.js:7
-#: build/index.js:331
+#: build/outermost-mega-menu/index.js:7
 msgid "When the navigation options are displayed in an overlay, typically on mobile devices, disable the mega menu."
 msgstr ""
 
-#: build/index.js:7
-#: build/index.js:338
+#: build/outermost-mega-menu/index.js:7
 msgid "Url"
 msgstr ""
 
-#: build/index.js:7
-#: build/index.js:346
+#: build/outermost-mega-menu/index.js:7
 msgid "When the navigtion menu is collapsed, link to this URL instead."
 msgstr ""
 
-#: build/index.js:7
-#: build/index.js:356
+#: build/outermost-mega-menu/index.js:7
 msgid "Layout"
 msgstr ""
 
-#: build/index.js:7
-#: build/index.js:365
+#: build/outermost-mega-menu/index.js:7
 msgid "Justification"
 msgstr ""
 
-#: build/index.js:7
-#: build/index.js:387
+#: build/outermost-mega-menu/index.js:7
 msgid "Width"
 msgstr ""
 
-#: build/index.js:7
-#: build/index.js:421
+#: build/outermost-mega-menu/index.js:7
 msgid "Mega menu link text"
 msgstr ""
 
-#: build/index.js:7
-#: build/index.js:425
+#: build/outermost-mega-menu/index.js:7
 msgid "Add label…"
 msgstr ""
 
-#: build/block.json
+#: build/outermost-mega-menu/block.json
 msgctxt "block title"
 msgid "Mega Menu"
 msgstr ""
 
-#: build/block.json
+#: build/outermost-mega-menu/block.json
 msgctxt "block description"
 msgid "Add a mega menu to your navigation."
 msgstr ""
