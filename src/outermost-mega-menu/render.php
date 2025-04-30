@@ -44,6 +44,8 @@ $toggle_icon = '<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 12" widt
 	data-wp-context='{ "menuOpenedBy": {} }'
 	data-wp-on--focusout="actions.handleMenuFocusout"
 	data-wp-on--keydown="actions.handleMenuKeydown"
+	data-wp-on--mouseover="actions.handleMenuMouseover"
+	data-wp-on--mouseleave="actions.handleMenuMouseleave"
 	data-wp-watch="callbacks.initMenu"
 >
 	<button

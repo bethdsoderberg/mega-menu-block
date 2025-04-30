@@ -6,7 +6,8 @@
     overflow: hidden;
     position: absolute;
     top: 30px;
-    transition: opacity .1s linear;
+    transition: opacity 0.1s linear, visibility;
+    transition-delay: 0.2s, 0.2s;
     visibility: hidden;
     z-index: 2;
 
@@ -55,6 +56,10 @@
         .menu-container__close-button {
             opacity: 1;
         }
+    }
+
+    @at-root .wp-block-outermost-mega-menu:hover #{&} {
+        transition-delay: 0s, 0s;
     }
 
     // This ensures navigation menu inside of mega menus display correctly.

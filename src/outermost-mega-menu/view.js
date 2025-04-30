@@ -6,7 +6,7 @@ import { store, getContext, getElement } from '@wordpress/interactivity';
 const { state, actions } = store( 'outermost/mega-menu', {
 	state: {
 		get isMenuOpen() {
-			// The menu is opened if either `click` or `focus` is true.
+			// The menu is opened if any method is true.
 			return (
 				Object.values( state.menuOpenedBy ).filter( Boolean ).length > 0
 			);
@@ -65,6 +65,12 @@ const { state, actions } = store( 'outermost/mega-menu', {
 				actions.closeMenu( 'click' );
 				actions.closeMenu( 'focus' );
 			}
+		},
+		handleMenuMouseover( event ) {
+			actions.openMenu( 'hover' );
+		},
+		handleMenuMouseleave( event ) {
+			actions.closeMenu( 'hover' );
 		},
 		openMenu( menuOpenedOn = 'click' ) {
 			state.menuOpenedBy[ menuOpenedOn ] = true;
