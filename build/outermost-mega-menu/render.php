@@ -19,7 +19,7 @@ $menu_width             = esc_attr( $attributes['width'] ?? 'content');
 
 // Don't display the mega menu link if there is no label or no menu slug.
 if ( ! $label || ! $menu_slug ) {
-	return null;	
+	return null;
 }
 
 $classes  = $disable_when_collapsed ? 'disable-menu-when-collapsed ' : '';
@@ -44,6 +44,8 @@ $toggle_icon = '<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 12" widt
 	data-wp-context='{ "menuOpenedBy": {} }'
 	data-wp-on--focusout="actions.handleMenuFocusout"
 	data-wp-on--keydown="actions.handleMenuKeydown"
+	data-wp-on--mouseover="actions.handleMenuMouseover"
+	data-wp-on--mouseleave="actions.handleMenuMouseleave"
 	data-wp-watch="callbacks.initMenu"
 >
 	<button
@@ -59,11 +61,11 @@ $toggle_icon = '<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 12" widt
 		tabindex="-1"
 	>
 		<?php echo block_template_part( $menu_slug ); ?>
-		<button 
-			aria-label="<?php echo __( 'Close menu', 'mega-menu' ); ?>" 
-			class="menu-container__close-button" 
+		<button
+			aria-label="<?php echo __( 'Close menu', 'mega-menu' ); ?>"
+			class="menu-container__close-button"
 			data-wp-on--click="actions.closeMenuOnClick"
-			type="button" 
+			type="button"
 		>
 			<?php echo $close_icon; ?>
 		</button>
