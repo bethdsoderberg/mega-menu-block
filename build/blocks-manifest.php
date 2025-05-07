@@ -44,7 +44,7 @@ return array(
 		'supports' => array(
 			'html' => false,
 			'interactivity' => true,
-			'renaming' => false,
+			'renaming' => true,
 			'reusable' => false,
 			'typography' => array(
 				'fontSize' => true,

@@ -37,7 +37,7 @@
 	"supports": {
 		"html": false,
 		"interactivity": true,
-		"renaming": false,
+		"renaming": true,
 		"reusable": false,
 		"typography": {
 			"fontSize": true,
