@@ -26,7 +26,7 @@ msgstr ""
 
 #. Author of the plugin
 #: mega-menu-block.php
-msgid "BeThink Studio, based on prior work by Nick Diego"
+msgid "Bethink Studio, based on prior work by Nick Diego"
 msgstr ""
 
 #: mega-menu-block.php:78

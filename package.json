@@ -2,7 +2,7 @@
 	"name": "mega-menu-block",
 	"version": "0.1.0",
 	"description": "Add mega menus to your website.",
-	"author": "BeThink Studio, based on work by Nick Diego",
+	"author": "Bethink Studio, based on work by Nick Diego",
 	"license": "GPL-2.0-or-later",
 	"main": "build/index.js",
 	"scripts": {
