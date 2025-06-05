@@ -140,5 +140,26 @@ html.has-modal-open {
 				display: none;
 			}
 		}
+		&:not(.disable-menu-when-collapsed) {
+			.wp-block-outermost-mega-menu__toggle {
+				&[aria-expanded=true] {
+					&~.wp-block-outermost-mega-menu__menu-container {
+						height: auto;
+					}
+				}
+			}
+			.wp-block-outermost-mega-menu__menu-container {
+				height: 0;
+				width: auto !important;
+				max-width: 100%;
+				position: relative;
+				top: unset !important;
+				left: unset !important;
+
+				.wp-block-group-is-layout-flex {
+					flex-direction: column;
+				}
+			}
+		}
 	}
 }
