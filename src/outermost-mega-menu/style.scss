@@ -1,7 +1,4 @@
 // Styles for both the Editor and the front end.
-ul.items-justified-right > .wp-block-outermost-mega-menu {
-	text-align: right;
-}
 
 .wp-block-outermost-mega-menu {
 	.wp-block-outermost-mega-menu__toggle {
@@ -15,8 +12,7 @@ ul.items-justified-right > .wp-block-outermost-mega-menu {
 		font-weight: inherit;
 		line-height: inherit;
 		padding: 0;
-		text-align: match-parent;
-		text-align: -webkit-match-parent;
+		text-align: left;
 		text-transform: inherit;
 
 
@@ -55,5 +51,14 @@ ul.items-justified-right > .wp-block-outermost-mega-menu {
 				transition-delay: 0s, 0s;
 			}
 		}
+	}
+
+	@at-root html.has-modal-open ul.items-justified-right > #{&} {
+		text-align: right;
+	}
+
+	@at-root html.has-modal-open #{&} {
+		text-align: match-parent;
+		text-align: -webkit-match-parent;
 	}
 }
