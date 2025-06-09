@@ -67,7 +67,9 @@ const { state, actions } = store( 'outermost/mega-menu', {
 			}
 		},
 		handleMenuMouseover( event ) {
-			actions.openMenu( 'hover' );
+			if ( ! document.documentElement.className.contains( 'has-modal-open' ) ) {
+				actions.openMenu( 'hover' );
+			}
 		},
 		handleMenuMouseleave( event ) {
 			actions.closeMenu( 'hover' );
